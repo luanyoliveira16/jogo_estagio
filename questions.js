@@ -37,14 +37,7 @@ let questions = [
               ],
               answer: 0
           },
-          {
-              question: 'O que é a morte?',
-              options: [
-                  'É o fim de tudo.',
-                  'É a separação entre a alma e o corpo.'
-              ],
-              answer: 2
-          },
+        
           {
               question: 'Sobre a reminiscência...',
               options: [
