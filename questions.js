@@ -63,7 +63,7 @@ let questions = [
                   'Não. Nossos corpos pertencem aos deuses a quem os sábios se submetem.',
                   'Sim. Temos total liberdade e autonomia sobre nossos corpos.',
               ],
-              answer: 1
+              answer: 0
           },
           {
               question: 'Respondendo a teoria a Alma-Harmonia...',
