@@ -67,7 +67,7 @@ let questions = [
           {
               question: 'Somos livres?',
               options: [
-                  'Não. Nossos corpos pertencem aos deuses e o sábio se submete a quem é maior do que ele.',
+                  'Não. Nossos corpos pertencem aos deuses a quem os sábios se submetem.',
                   'Sim. Temos total liberdade e autonomia sobre nossos corpos.',
               ],
               answer: 1
