@@ -78,7 +78,7 @@ let questions = [
                   'Está correta, pois a alma é uma harmonia entre as partes do corpo.',
                   'Está correta, pois se o corpo é destruído a harmonia não pode sobreviver.',
                   'Está incorreta, pois a harmonia não pode existir antes dos elementos dos quais vem a ser composta.',
-                  'Está incorreta, pois está de acordo com reminiscência'
+                  'Está incorreta, pois está de acordo com reminiscência.'
               ],
               answer: 2
           },
