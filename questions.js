@@ -14,16 +14,18 @@ let questions = [
               options: [
                   'Não. O corpo é tão necessário quanto a alma.',
                   'Sim. O corpo prejudica o conhecimento da alma, mas não impede que seja alcançado durante a vida.',
-                  'Sim. O corpo é o obstáculo do conhecimento da alma, portanto o conhecimento só poderá ser alcançado após a morte.'
+                  'Sim. O corpo é o obstáculo do conhecimento da alma, portanto a inteligibilidade só poderá ser alcançada quando estivermos libertos do cativeiro chamado corpo.',
+                  'Não. Embora menos importante, os sentindos percebidos pelo corpo são fundamentais para o pensamento.'
               ],
               answer: 2
           },
           {
               question: 'Sobre o destino das almas...',
               options: [
-                  'No momento de sua libertação arrasta consigo algo corpóreo ',
+                  'Mesmo após a sua libertação arrasta consigo algo corpóreo.',
                   'Após a morte, a alma dirige-se para o que lhe parece invisível, divino e imortal.',
-                  'Não faz diferença o modo como vivemos, pois independente da maneira em que lidamos com o corpo, a alma sempre será pura.'
+                  'Não faz diferença o modo como vivemos, pois independente se houve ou não tentativas de se aperfeiçoar nas virtudes, todos teremos o mesmo destino após a morte.',
+                  'As almas puras confundem seus caminhos com o das almas que não vivem uma vida verdadeiramente filosófica.'
               ],
               answer: 1
           },
@@ -39,7 +41,6 @@ let questions = [
               question: 'O que é a morte?',
               options: [
                   'É o fim de tudo.',
-                  'É a descoberta do mundo das ideias.',
                   'É a separação entre a alma e o corpo.'
               ],
               answer: 2
@@ -48,8 +49,8 @@ let questions = [
               question: 'Sobre a reminiscência...',
               options: [
                   'Diz respeito à purificação da alma.',
-                  '',
-                  'function minhaFuncao()'
+                  'É um argumento contrário a imortalidade da alma.',
+                  'É o aprendizado através da recordação. Nossos conhecimentos são acessados durante a vida por meio de nossas lembranças.'
               ],
               answer: 2
           },
@@ -66,12 +67,10 @@ let questions = [
           {
               question: 'Somos livres?',
               options: [
-                  'Não',
-                  'if i == 5 then',
-                  'if (i == 5)',
-                  'if i = 5 then'
+                  'Não. Nossos corpos pertencem aos deuses e o sábio se submete a quem é maior do que ele.',
+                  'Sim. Temos total liberdade e autonomia sobre nossos corpos.',
               ],
-              answer: 2
+              answer: 1
           },
           {
               question: 'Respondendo a teoria a Alma-Harmonia...',
@@ -83,15 +82,7 @@ let questions = [
               ],
               answer: 2
           },
-          {
-              question: 'Como o loop while começa?',
-              options: [
-                  'while (i <= 10)',
-                  'while (i <= 10; i++)',
-                  'while i = 1 to 10'
-              ],
-              answer: 0
-          },
+     
           {
               question: 'Gostou do projeto?',
               options: [

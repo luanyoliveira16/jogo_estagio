@@ -48,12 +48,12 @@ function finishQuiz() {
 
     if(points < 30) {
         document.querySelector('.scoreText1').innerHTML = 'Por Zeus!';
-        document.querySelector('.scorePct').style.color = '#FF0000';
+        document.querySelector('.scorePct').style.color = ' rgba(230, 0, 60)';
     } else if(points >= 30 && points < 70) {
-        document.querySelector('.scoreText1').innerHTML = 'Quase um socrático!';
-        document.querySelector('.scorePct').style.color = '#FFFF00';
+        document.querySelector('.scoreText1').innerHTML = 'Pode melhorar!';
+        document.querySelector('.scorePct').style.color = ' rgba(230, 0, 60)';
     } else if(points >= 70) {
-        document.querySelector('.scoreText1').innerHTML = 'Parabéns';
+        document.querySelector('.scoreText1').innerHTML = 'Parabéns!';
         document.querySelector('.scorePct').style.color = '#0D630D';
     }
 
