@@ -32,6 +32,11 @@ function showQuestion() {
     }
 }
 
+function click2(){
+    document.querySelector('.bg-yellow').click();
+}
+
+
 function optionClickEvent(e) {
     let clickedOption = parseInt(e.target.getAttribute('data-op'));
 
@@ -44,10 +49,12 @@ function optionClickEvent(e) {
 }
 
 function finishQuiz() {
+    click2();
+
     let points = Math.floor((correctAnswers / questions.length) * 100);
 
     if(points < 30) {
-        document.querySelector('.scoreText1').innerHTML = 'Por Zeus!';
+        document.querySelector('.scoreText1').innerHTML = 'Vish, deu ruim!';
         document.querySelector('.scorePct').style.color = ' rgba(230, 0, 60)';
     } else if(points >= 30 && points < 70) {
         document.querySelector('.scoreText1').innerHTML = 'Pode melhorar!';
@@ -55,6 +62,7 @@ function finishQuiz() {
     } else if(points >= 70) {
         document.querySelector('.scoreText1').innerHTML = 'Parabéns!';
         document.querySelector('.scorePct').style.color = '#0D630D';
+        document.querySelector('img').src = 'https://media2.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif'
     }
 
     document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`;

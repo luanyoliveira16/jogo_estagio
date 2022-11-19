@@ -1,88 +1,47 @@
 let questions = [
           {
-              question: 'O filósofo deve temer a morte?',
-              options: [
-                  'Sim. É dever do filósofo preservar a vida e aos tolos cabe a alegria diante da perspectiva da morte.',
-                  'Não. Porque os homens que se dedicam à filosofia estão justamente se preparando para a morte.',
-                  'Sim. O caráter lógico da filosofia depende da interação entre o corpo e a alma, portanto é necessário estar vivo pra filosofar. ',
-                  'Não. Porque o que deve importar verdadeiramente para o filósofo é o legado de seus pensamentos.'
-              ],
-              answer: 1
+            question: 'Sabendo que a sentença “Se Ana trabalha muito, então Ana pode passear” é uma sentença logicamente falsa, então podemos afirmar que é verdadeiro:',
+            options: [
+                'Ana trabalha muito.',
+                'Ana pode passear.',
+                'Ana não trabalha muito e pode passear.',
+                'Ana pode passear e trabalhar muito.',
+                'Ana não trabalha muito ou pode passear.'
+            ],
+            answer: 0
           },
           {
-              question: 'O corpo é um obstáculo para o pensamento?',
-              options: [
-                  'Não. O corpo é tão necessário quanto a alma.',
-                  'Sim. O corpo prejudica o conhecimento da alma, mas não impede que seja alcançado durante a vida.',
-                  'Sim. O corpo é o obstáculo do conhecimento da alma, portanto a inteligibilidade só poderá ser alcançada quando estivermos libertos do cativeiro chamado corpo.',
-                  'Não. Embora menos importante, os sentindos percebidos pelo corpo são fundamentais para o pensamento.'
-              ],
-              answer: 2
+            question: 'Considere que a sentença simples P é verdadeira, a sentença simples Q é falsa e a sentença simples R é verdadeira. Assim, o valor lógico das sentenças compostas: I. (~𝑃 ∨ 𝑄) ∧ 𝑅, II. ~𝑃 ∧ (𝑄 ∨ 𝑅), III. 𝑃 → (~𝑅 ∨ 𝑄)',
+            options: [
+                'V – V – V',
+                'V – F – V',
+                'V – F – F',
+                'F – F – V',
+                'F – F – F'
+            ],
+            answer: 4
+              
           },
           {
-              question: 'Sobre o destino das almas...',
+              question: 'A proposição Se o notebook é preto então a impressora é branca será falsa somente se:',
               options: [
-                  'Mesmo após a sua libertação arrasta consigo algo corpóreo.',
-                  'Após a morte, a alma dirige-se para o que lhe parece invisível, divino e imortal.',
-                  'Não faz diferença o modo como vivemos, pois independente se houve ou não tentativas de se aperfeiçoar nas virtudes, todos teremos o mesmo destino após a morte.',
-                  'As almas puras confundem seus caminhos com o das almas que não vivem uma vida verdadeiramente filosófica.'
+                  'A primeira proposição for falsa.',
+                  'A segunda proposição for verdadeira.',
+                  'Ambas proposições forem falsas.',
+                  'Ambas proposições forem verdadeiras.',
+                  'A primeira proposição for verdadeira e a segunda for falsa.'
               ],
-              answer: 1
+              answer: 4
           },
           {
-              question: 'A alma é imortal.',
+              question: 'Considere falsa a seguinte afirmação: “Se hoje amanheci contente, então dormi bem”. Com base nessa informação, é necessariamente verdade que hoje',
               options: [
-                  'Verdade',
-                  'Falso'
+                  'não amanheci contente ou dormi bem.',
+                  'dormi bem e não amanheci contente.',
+                  'dormi bem e amanheci contente.',
+                  'amanheci contente e não dormi bem.',
+                  'não dormi bem e não amanheci contente.'
               ],
-              answer: 0
-          },
-        
-          {
-              question: 'Sobre a reminiscência...',
-              options: [
-                  'Diz respeito à purificação da alma.',
-                  'É um argumento contrário a imortalidade da alma.',
-                  'É o aprendizado através da recordação. Nossos conhecimentos são acessados durante a vida por meio de nossas lembranças.'
-              ],
-              answer: 2
-          },
-          {
-              question: 'Sobre o filósofo, qual é a incorreta?',
-              options: [
-                  'O filósofo não se preocupa com a riqueza: a pobreza não lhes infunde medo.',
-                  'O filósofo não se preocupa com a glória ou honra: o infortúnio não o atemoriza.',
-                  'O filósofo não se preocupa em purificar sua alma.', 
-                  'O filósofo afasta-se dos prazeres, dos desejos, dos incômodos e dos terrores.'
-              ],
-              answer: 2
-          },
-          {
-              question: 'Somos livres?',
-              options: [
-                  'Não. Nossos corpos pertencem aos deuses a quem os sábios se submetem.',
-                  'Sim. Temos total liberdade e autonomia sobre nossos corpos.',
-              ],
-              answer: 0
-          },
-          {
-              question: 'Respondendo a teoria a Alma-Harmonia...',
-              options: [
-                  'Está correta, pois a alma é uma harmonia entre as partes do corpo.',
-                  'Está correta, pois se o corpo é destruído a harmonia não pode sobreviver.',
-                  'Está incorreta, pois a harmonia não pode existir antes dos elementos dos quais vem a ser composta.',
-                  'Está incorreta, pois está de acordo com reminiscência.'
-              ],
-              answer: 2
-          },
-     
-          {
-              question: 'Gostou do projeto?',
-              options: [
-                  'Sim',
-                  'Não',
-                  'Talvez'
-              ],
-              answer: 0
-          },
+              answer: 3
+          }
       ];
