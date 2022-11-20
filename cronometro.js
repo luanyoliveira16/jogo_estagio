@@ -55,3 +55,8 @@ document.querySelector('.bg-green').addEventListener('click', () =>{
           document.querySelector('main').style.display = 'block';
           document.querySelector('.bg-green').style.display = 'none';
 })
+
+document.querySelector('.again').addEventListener(click(), () => { 
+         stop();
+         start();
+})
